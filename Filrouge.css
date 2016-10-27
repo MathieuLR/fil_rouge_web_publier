@@ -1,0 +1,605 @@
+body
+{
+	background-image: url(images/BACKGROUND/backgroundvillage.png);
+	background-attachment: fixed;
+	background-size: 100% 100%;
+
+}
+
+#global
+{
+	background-image: url(images/BACKGROUND/bandemilieu.png);
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	
+	position: relative;
+}
+
+#bande
+{
+	width: 100%;
+	
+}
+#logo
+{
+	position: absolute;
+	top:6%;
+}
+#textinfo
+{
+	position: absolute;
+	top: 22px;
+	right: 310px;
+	width: 50px;
+	color:#000A3F;
+	font-size: 16px;
+}
+#textadmin
+{
+	position: absolute;
+	top: 22px;
+	right: 450px;
+	width: 50px;
+	color:#000A3F;
+	font-size: 16px;
+}
+#textespaceclient
+{
+	position: absolute;
+	top: 10px;
+	right: 230px;
+	width: 50px;
+	color:#000A3F;
+	font-size: 16px;
+}
+#imagepanier
+{
+	position: absolute;
+	top: 12px;
+	right: 150px;
+	width: 30px;
+}
+#imagelangue
+{
+    position: absolute;
+	top: 20px;
+	right: 40px;
+	width: 50px;
+}
+#textligne2
+{
+	position: absolute;
+	top: 65px;
+	right: 50px;
+	width: 60%;
+	color:white;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+#textligne2 span {
+	padding-right: 5%;
+	padding-left: 5%;
+}
+
+#textligne3
+{
+	position: absolute;
+	top: 120px;
+	right: 80px;
+	color:white;
+	font-size: 20px;
+	
+}
+
+#banniere
+{
+	margin-left: 40%;
+}
+#textepub
+{   
+	position: absolute;
+	top:8%;
+	left: 5%;
+	
+}
+#milieu 
+{
+	padding-top: 50px;
+	background-image: url(images/BACKGROUND/bandemilieu.png);
+	background-attachment: fixed;
+	background-size: 100% 100%;
+
+	
+}
+
+#premierepub
+{
+	position: relative;
+	background-image: url(images/BODY/grossepub.png);
+	background-repeat: no-repeat;
+}
+
+#deuxiemepub
+{
+ padding-top: 2%;
+
+}
+#milieufin
+{
+	background-image: url(images/BACKGROUND/bandemilieu.png);
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+#categorie
+{
+	padding-top: 2%;
+	color:#000A3F;
+	font-weight: bold;
+	font-size: 20px;
+
+}
+#troisiemepub
+{
+
+ padding-right: 3.3%;
+ 
+
+}
+#quatriemepub
+{
+ 
+padding-right: 3.3%;
+}
+#cinquiemepub
+{
+	padding-right: 100px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+
+#sixiemepub  {
+	position: relative;
+	background-image: url(images/FOOTER/footer.png);
+	background-size: 100% 100%;
+	height: 700px;
+	
+	
+}
+
+.coupe {
+	overflow: hidden;
+}
+
+
+.tailleimage
+{
+	width :100%;
+}
+
+#tailletexte
+{
+	position: absolute;
+	font-weight: bold;
+	color :white;
+	top: 3%;
+	left: 3%;
+	font-size: 18px;
+
+}
+#couleurtext
+{
+	color: #B55400;
+
+}
+#couleurbis
+{
+	color: #B55400;
+}
+#taillebis
+{
+	position: absolute;
+	font-weight: bold;
+	color :white;
+	top: 3%;
+	left: 40%;
+	font-size: 18px;
+}
+#imagefb
+{
+	position: absolute;
+	top: 7%;
+	left: 43%;
+
+}
+#imagetw
+{
+	position: absolute;
+	top: 7%;
+	left: 48%;
+}
+#textbox
+{
+	position: absolute;
+	top:8%;
+	left: 3%;
+	width: 25%;
+}
+#valider
+{
+	position: absolute;
+	top:8%;
+	left: 29%;
+	
+}
+
+#couleurvalider
+{
+	background-color:#B55400;
+	color:white;
+	font-weight: bold;
+}
+
+#textligne2  a
+{
+  color :white;
+}
+#textligne3 a
+{
+  color :white;
+}
+
+#guitare
+{
+	
+	background-image: url(images/BODY/guitare.png);
+	width:290.34px;
+	height: 182px;
+
+
+}
+#guitare:hover
+{
+	
+	background-image: url(images/BODY/hoverguitare.png);
+	width:290.34px;
+	height: 182px;
+}
+
+#batterie
+{
+	
+	background-image: url(images/BODY/batterie.png);
+	width:290.34px;
+	height: 182px;
+}
+#batterie:hover
+{
+	
+	background-image: url(images/BODY/hoverbatterie.png);
+	width:290.34px;
+	height: 182px;
+}
+#piano
+{
+	
+	background-image: url(images/BODY/piano.png);
+	width:290.34px;
+	height: 182px;
+}
+#piano:hover
+{
+	
+	background-image: url(images/BODY/hoverpiano.png);
+	width:290.34px;
+	height: 182px;
+}
+#micro
+{
+	
+	background-image: url(images/BODY/micro.png);
+	width:290.34px;
+	height: 182px;
+}
+#micro:hover
+{
+	
+	background-image: url(images/BODY/hovermicro.png);
+	width:290.34px;
+	height: 182px;
+}
+#sono
+{
+	
+	background-image: url(images/BODY/sono.png);
+	width:290.34px;
+	height: 182px;
+
+}
+#sono:hover
+{
+	
+	background-image: url(images/BODY/hoversono.png);
+	width:290.34px;
+	height: 182px;
+}
+#caisse
+{
+	
+	background-image: url(images/BODY/caisse.png);
+	width:290.34px;
+	height: 182px;
+
+}
+#caisse:hover
+{
+	
+	background-image: url(images/BODY/hovercaisse.png);
+	width:290.34px;
+	height: 182px;
+}
+#cable
+{
+	
+	background-image: url(images/BODY/cable.png);
+	width:290.34px;
+	height: 182px;
+
+}
+#cable:hover
+{
+	
+	background-image: url(images/BODY/hovercable.png);
+	width:290.34px;
+	height: 182px;
+}
+#trompette
+{
+	
+	background-image: url(images/BODY/trompette.png);
+	width:290.34px;
+	height: 182px;
+
+}
+#trompette:hover
+{
+	
+	background-image: url(images/BODY/hovertrompette.png);
+	width:290.34px;
+	height: 182px;
+}
+#guitnoir
+{
+	
+	background-image: url(images/BODY/guitnoir.png);
+	width:180px;
+	height: 300px;
+
+}
+#guitnoir:hover
+{
+	
+	background-image: url(images/BODY/hoverguitnoir.png);
+	width:180px;
+	height: 300px;
+
+}
+#saxo
+{
+	
+	background-image: url(images/BODY/saxo.png);
+	width:180px;
+	height: 300px;
+
+}
+#saxo:hover
+{
+	
+	background-image: url(images/BODY/hoversaxo.png);
+	width:180px;
+	height: 300px;
+}
+#synthe
+{
+	
+	background-image: url(images/BODY/synthe.png);
+	width:180px;
+	height: 300px;
+
+}
+#synthe:hover
+{
+	
+	background-image: url(images/BODY/hoversynthe.png);
+	width:180px;
+	height: 300px;
+}
+
+#placement
+{
+	margin-left: 3%;
+}
+
+/*css  page inscription*/
+#bodypremier
+{
+	background-image: url(images/BACKGROUND/bandemilieu.png);
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+#titre
+{
+	position: relative;
+	color:#000A3F;
+	font-weight: bold;
+}
+
+#placeemail
+{
+	padding-left: 9%;
+}
+#boxemail
+{
+	width:25%;
+	
+}
+#placempd
+{
+	padding-left: 10%;
+}
+#boxmpd
+{
+	width:57%;
+	
+}
+#placeconfirmmpd
+{
+	
+	width:40%;
+}
+#boxconfirmmpd
+{
+	width: 125%;
+	
+	
+}
+#bodydeuxieme
+{
+	background-image: url(images/BACKGROUND/bandemilieu.png);
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+#titre2
+{
+	position: relative;
+	color:#000A3F;
+	font-weight: bold;
+}
+
+#formul
+{
+	padding-left: 10%;
+	width: 35%;
+}
+#grat
+{
+	position: relative;
+	left:10%;
+	width: 500px;
+	background-color: #798081;
+}
+input.form-control
+{
+	left: 15%;
+}
+#pubbody
+{
+	margin-top: 40px;
+	background-image: url(images/BODY/pubfilrouge.png);
+	background-repeat: no-repeat;
+	width:100%;
+	height: 200px;
+}
+
+#titrepub
+{
+	padding-left: 80px;
+	color:#B55400;
+	font-weight: bold;
+	font-size: 20px;
+}
+#boxportable
+{
+	margin-left: 15%;
+	width:50%;
+	
+}
+#boxfixe
+{
+	margin-left: 15%;
+	width:50%;
+	
+}
+#portable
+{
+	margin-left: 15%;
+}
+#fixe
+{
+	margin-left: 15%;
+}
+#titresms
+{
+	position: absolute;
+	color:#003366;
+	font-weight: bold;
+	font-size: 30px;
+	top:66%;
+	left:40%;
+}
+
+#bodytroisieme
+{
+	background-image: url(images/BACKGROUND/bandemilieu.png);
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+#btninscription
+{
+	
+	/*position: absolute;*/
+	/*bottom: 10px;*/
+	/*left: 10px;*/
+	/*margin-top: 30px;*/
+	margin-bottom: 30px;
+	
+}
+
+input.error{
+	border-color: red;
+}
+input.correct
+{
+	border-color: green;
+}
+
+input.goodmail
+{
+	background-color: #32CD32;
+}
+input.badmail
+{
+	background-color: #FF6347;
+
+}
+.red
+{
+	color:red;
+}
+#titreliste
+{
+	margin-left: 30%;
+	color:#003366;
+	font-weight: bold;
+	font-size: 30px;
+}
+#nomcolone
+{
+	color:#003366;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.clickable-row:hover {
+	background-color: #aaa;
+	cursor: pointer;
+}
+#boutonretour
+{
+	margin-left:8%;
+}
+#boutonmodif
+{
+	margin-left:8%;
+	margin-bottom: 2%;
+}
