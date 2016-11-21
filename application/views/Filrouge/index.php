@@ -146,7 +146,7 @@
 <script>
 	$(document).ready(function() {
 	  	$.ajax({ 
-			url: "<?= site_url("Filrouge/home/") ?>",
+			url: "<?= site_url("Filrouge/home") ?>",
 			success: function(data) {
 				$("#listeBox1").html(data);
 				
@@ -216,7 +216,7 @@
 				success: function(data) {
 					if (data == "ko") {
 						alert("Erreur d'identifiant/mot de passe administrateur")
-						$("#listeBox1").load("<?= site_url("Filrouge/home/") ?>")
+						$("#listeBox1").load("<?= site_url("Filrouge/home") ?>")
 					}
 					else
 					{
@@ -231,7 +231,7 @@
 		$.ajax({
 			url: "<?= site_url('Authentification/logout') ?>",
 			success: function(data) {
-				$("#listeBox1").load("<?= site_url("Filrouge/home/") ?>")
+				$("#listeBox1").load("<?= site_url("Filrouge/home") ?>")
 				$("#admin").popover("hide");
 				$("#client").popover("hide");
 			}

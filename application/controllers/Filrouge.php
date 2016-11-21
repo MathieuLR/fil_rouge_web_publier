@@ -22,19 +22,19 @@ class Filrouge extends CI_Controller
      public function liste()
     {
         $model["liste"] = $this->FilrougeDAO->liste();
-        $this->load->view('filrouge/admin', $model);
+        $this->load->view('Filrouge/admin', $model);
     }
 
     public function home()
     {
         
-        $this->load->view('filrouge/home');
+        $this->load->view('Filrouge/home');
     }
 
     public function inscription()
     {
          
-    	$this->load->view('filrouge/inscription');
+    	$this->load->view('Filrouge/inscription');
         
         
     }
@@ -45,7 +45,7 @@ class Filrouge extends CI_Controller
             if ( $data=$this->input->post()==false)
             {
             $model["liste"]=$this->FilrougeDAO->liste();
-            $this->load->view('filrouge/admin', $model);
+            $this->load->view('Filrouge/admin', $model);
             }
             else
             {

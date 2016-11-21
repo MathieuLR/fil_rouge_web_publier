@@ -6,7 +6,7 @@ class AuthentificationDAO extends CI_model
 
 	function check ($email, $motdepasse) {
 
-		$requete = $this->db->query("SELECT AdresseMailDuClient , MotDePasse , Role from client where AdresseMailDuClient=?", array($email));
+		$requete = $this->db->query("SELECT AdresseMailDuClient , MotDePasse , Role from Client where AdresseMailDuClient=?", array($email));
 		$ligne = $requete->row();
 		if ($ligne) {
 			if (password_verify($motdepasse, $ligne->MotDePasse)) {
